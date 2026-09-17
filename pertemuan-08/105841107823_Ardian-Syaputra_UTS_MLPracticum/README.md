@@ -29,7 +29,7 @@ Proyek ini adalah tugas Ujian Tengah Semester (UTS) yang berfokus pada implement
 ## 🎯 Capaian Pembelajaran (Objectives)
 - Melakukan **Exploratory Data Analysis (EDA)** untuk memahami distribusi demografi dan korelasi pengeluaran pelanggan.
 - Melakukan **Data Preprocessing & Feature Engineering** (menangani *missing values*, *outliers*, dan *Standard Scaling*).
-- Melatih dan membandingkan algoritma **K-Means** dan **Hierarchical Clustering (Agglomerative)**.
+- Melatih dan membandingkan algoritma **K-Means**, **Hierarchical Clustering (Agglomerative)**, dan **Gaussian Mixture Model (GMM)**.
 - Mengevaluasi model menggunakan metrik **Silhouette Score** dan **Elbow Method**.
 - Menyusun **Business Recommendation** yang dapat ditindaklanjuti untuk setiap klaster.
 
@@ -39,6 +39,7 @@ Proyek ini adalah tugas Ujian Tengah Semester (UTS) yang berfokus pada implement
 * **Algoritma Machine Learning:**
   * K-Means Clustering
   * Hierarchical Clustering (Ward Linkage)
+  * Gaussian Mixture Model (GMM)
 * **Evaluasi:** Silhouette Score
 
 ## 📊 Ringkasan Hasil Evaluasi
@@ -48,6 +49,7 @@ Dalam proyek ini, jumlah klaster optimal yang dipilih adalah **K=4**. Berikut ad
 |-------|------------------|------------|
 | **K-Means** | `0.3270` | **Model Terbaik** (Pemisahan lebih baik) |
 | **Hierarchical** | `0.2868` | Memiliki tingkat *overlap* yang lebih tinggi |
+| **GMM** | `0.1839` | Performa terendah pada dataset ini |
 
 ## 💡 Kesimpulan Segmen Pelanggan (Business Profiling)
 Berdasarkan hasil K-Means (K=4), pelanggan berhasil dikelompokkan ke dalam 4 persona utama:
@@ -58,9 +60,9 @@ Berdasarkan hasil K-Means (K=4), pelanggan berhasil dikelompokkan ke dalam 4 per
 4. 📉 **The Minimalists (Low Income, Lowest Spender):** Pelanggan muda/lajang dengan pengeluaran minim. Strategi: Kampanye *entry-level*, *flash-sale*, dan adopsi aplikasi gratis.
 
 ## 📁 Struktur File
-* `main.ipynb`: *Source code* utama (Jupyter Notebook) yang berisi seluruh tahapan dari Part 1 hingga Part 6.
+* `105841107823_Ardian_Syaputra_UTS_MLPracticum.ipynb`: *Source code* utama (Jupyter Notebook) yang berisi seluruh tahapan dari Part 1 hingga Part 6.
 * `marketing_campaign.csv`: Dataset mentah yang digunakan untuk analisis.
-* `*.pdf`: Laporan hasil eksekusi *notebook* yang disubmit untuk penilaian UTS.
+* `105841107823_Ardian_Syaputra_UTS_MLPracticum.pdf`: Laporan hasil eksekusi *notebook* yang disubmit untuk penilaian UTS.
 
 ---
 **Author:** Ardian Syaputra
